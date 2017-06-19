@@ -1,71 +1,47 @@
-body { 
-	background: rgb(240, 240, 240);
-	color:  rgb(20, 20, 20);
-	font-family: 'Roboto', sans-serif;
- }
- h1 {
- 	font-family: 'Open Sans', sans-serif;
- 	font-size: 28px;
- 	color: black;
- 	padding-top: 40px;
- }
- p {
- 	font-family: 'Montserrat', sans-serif;
- 	font-size: 12px;
- 	text-align: center;
- }
- a {
- 	text-decoration: none;
- 	color: blue;
- }
-
-#banner { 
-	background-size: cover;
-	position: absolute;
-    left: 10px;
-    top: 0px;
+body {
+	background color: rgb(150, 150, 150);
 }
 
-#banner1 {
-	position: absolute;
-	right: 10px;
-	top: 4px;
-	font-size: 12px;
+#container4 img {
+	padding-left: 10px;
+	margin-top: 10px;
 }
 
-#banner2 {
-	position: absolute;
-	right: 10px;
-	top: 26px;
-	font-size: 12px;
+#container5 h1 {
+	top: 0px; 
+	float: right;
+	padding-right: 10px;
+	font-size: 10px;
+	margin: -30px 0px 10px 10px;
 }
 
-#main {
+#container6 h1 {
+	float: right;
+	font-size: 10px;
+	margin: -10px 10px 10px 10px;
+}
+
+#container1 {
 	background-image: url('../Images/title_img.jpg');
 	background-size: cover;
 	padding: 100px 50px; 
 	text-align: center;
-	color: white;
-	margin: 50px 10px 10px 10px; 
-}
-
-#main h1 {
-	position: relative;
-	bottom: 40px;
-}
-
-#main p {
 	color: black;
-	font-size: 15px; 
-	font-weight: lighter;
-	opacity: 0.7;
-	font-family: 'Montserrat', sans-serif;
-	position: absolute;
-	left: 10px;
-	right: 10px;
-	top: 365px;
-	text-align: left;
+	margin: 10px 10px 10px 10px; 
+	font-size: 10px;
 }
+
+#container1 h1 {
+	font-size: 26px;
+	font-family: 'Roboto', sans-serif;
+
+}
+#container2 {
+	padding-left: 75px;
+	padding-right: 75px;
+	font-family: 'Open Sans', sans-serif;
+}
+
 
 .verga {
 	display: block;
@@ -76,8 +52,12 @@ body {
 	padding: 20px;
 	text-align: center;
 }
+
 h2 {
 	text-align: center;
-	margin: 160px 0px 20px 0px;
-	font-size: 20px;
+	margin: 40px 0px 20px 0px;
+	font-size: 22px;
+	font-family: 'Roboto', sans-serif;
 }
+
+
